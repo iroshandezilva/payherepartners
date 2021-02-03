@@ -1,0 +1,30 @@
+@import "variable";
+
+@mixin transition($prop, $ease, $delay) {
+  -webkit-transition: $prop $ease $delay;
+  -ms-transition:$prop $ease $delay;
+  transition:$prop $ease $delay;
+}
+
+
+
+@mixin base-transition {
+  @include transition(all, ease, .5s);
+}
+
+@mixin box-shadow-support($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+@mixin base-shadow {
+  @include box-shadow-support(6px, 6px, 54px, rgba(0, 0, 0, 0.05));
+}
+

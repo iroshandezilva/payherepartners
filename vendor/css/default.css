@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+  color: #2C323F;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  background-color: #F6F7FA; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+a:hover {
+  text-decoration: none; }
+
+.btn-ph {
+  padding: 15px 30px;
+  display: inline-block;
+  background-color: #2942EF;
+  color: #FFFFFF;
+  border-radius: 8px; }
+  .btn-ph i {
+    margin-right: 8px; }
+  .btn-ph:hover {
+    color: #FFFFFF; }
+
+.table-wrapper .table-inner .table-content .table {
+  margin-top: 30px; }
+  .table-wrapper .table-inner .table-content .table tr th {
+    color: #B5B5B5;
+    text-transform: uppercase;
+    border-bottom: 0.4px solid #e8e8e882 !important;
+    border-top: none !important; }
+    .table-wrapper .table-inner .table-content .table tr th:last-child {
+      text-align: right; }
+  .table-wrapper .table-inner .table-content .table tr td {
+    padding: 15px;
+    font-size: 13px;
+    border-bottom: 0.4px solid #e8e8e882 !important; }
+    .table-wrapper .table-inner .table-content .table tr td:last-child {
+      text-align: right; }
+    .table-wrapper .table-inner .table-content .table tr td span span {
+      color: #27AE60; }
+
+.filter-wrapper .filter-inner .form-inline .form-group {
+  padding-right: 0;
+  padding-left: 15px; }
+  .filter-wrapper .filter-inner .form-inline .form-group input {
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: #F6F7FA;
+    padding: 15px;
+    font-size: 14px;
+    height: auto; }
+    .filter-wrapper .filter-inner .form-inline .form-group input:focus {
+      box-shadow: none; }
+
+.registration-modal .modal-dialog .modal-content {
+  border-radius: 10px;
+  overflow: hidden; }
+  .registration-modal .modal-dialog .modal-content P {
+    color: #777777; }
+  .registration-modal .modal-dialog .modal-content .modal-navigation {
+    background-color: #F6F7FA; }
+  .registration-modal .modal-dialog .modal-content .form-header {
+    padding: 30px; }
+    .registration-modal .modal-dialog .modal-content .form-header h5 {
+      font-weight: 600; }
+  .registration-modal .modal-dialog .modal-content .nav-pills .nav-link {
+    border-radius: 0;
+    padding: 15px 30px;
+    color: #2C323F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .registration-modal .modal-dialog .modal-content .nav-pills .nav-link.active {
+      color: #2C323F;
+      background-color: rgba(41, 66, 239, 0.1); }
+  .registration-modal .modal-dialog .modal-content .form-right-content {
+    padding: 30px;
+    height: 100%; }
+    .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form .verification-wrapper .verification-inner .header {
+      text-align: center;
+      margin-bottom: 30px; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form .verification-wrapper .verification-inner .header .img {
+        width: 60px;
+        margin: 0 auto; }
+    .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form .title h5 {
+      color: #B5B5B5;
+      margin-bottom: 30px;
+      font-size: 18px; }
+    .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group {
+      padding: 0;
+      position: relative;
+      padding-top: 15px;
+      margin-bottom: 20px; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group.form-check {
+        padding-left: 20px; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control {
+        border: 0;
+        border-radius: 8px;
+        padding: 10px 10px;
+        background-color: #F6F7FA;
+        position: relative;
+        z-index: 2;
+        font-size: 0.9rem; }
+        .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control:not(textarea) {
+          height: 44px; }
+        .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control + label {
+          position: absolute;
+          z-index: 2;
+          top: 25px;
+          margin: 0;
+          transition: all 0.2s ease-in-out;
+          pointer-events: none;
+          left: 10px;
+          right: 10px; }
+          .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control + label span {
+            color: #FF0000; }
+        .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control:focus {
+          box-shadow: none;
+          background-color: #F6F7FA; }
+        .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control:focus + label, .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control.has-value + label {
+          font-size: 0.75rem;
+          top: -8px; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .no-js .form-control + label {
+        font-size: 0.75rem;
+        top: 0; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-row .form-control + label {
+        left: 25px;
+        right: 25px; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-row .line {
+        left: 15px;
+        right: 15px; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .line {
+        position: absolute;
+        display: block;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 2px; }
+        .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .line:after {
+          content: "";
+          height: 2px;
+          position: absolute;
+          display: block;
+          background: #FBAB02;
+          left: 0;
+          right: 0;
+          transform: scaleX(0);
+          transition: transform 0.2s ease-in-out;
+          transform-origin: 0 0; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control:focus ~ .line:after {
+        transform: scaleX(1); }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control:valid ~ .line:after {
+        transform: scaleX(1); }
+
+/*# sourceMappingURL=default.css.map */
