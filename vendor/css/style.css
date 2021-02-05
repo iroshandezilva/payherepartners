@@ -89,6 +89,12 @@ a:hover {
       color: #B5B5B5;
       margin-bottom: 30px;
       font-size: 18px; }
+    .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .main-check {
+      margin-bottom: 15px; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .main-check label {
+        font-size: 0.75rem; }
+      .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .main-check .form-check label {
+        font-size: 0.9rem; }
     .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group {
       padding: 0;
       position: relative;
@@ -122,7 +128,8 @@ a:hover {
           background-color: #F6F7FA; }
         .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control:focus + label, .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .form-control.has-value + label {
           font-size: 0.75rem;
-          top: -8px; }
+          top: -8px;
+          left: 0; }
       .registration-modal .modal-dialog .modal-content .form-right-content .tab-content .tab-pane .activation-form form .form-group .no-js .form-control + label {
         font-size: 0.75rem;
         top: 0; }

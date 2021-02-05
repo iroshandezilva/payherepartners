@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col">
                 <div class="form-group col-md-12">
-                    <input type="text" class="form-control" >
+                    <input type="text" class="form-control">
                     <label for="inputEmail4">Business Name</label>
 
                 </div>
@@ -28,11 +28,36 @@
                 </div>
             </div>
         </div>
+        <div class="main-check">
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="inputEmail4">You are <span>*</span></label>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                               value="option1" >
+                        <label class="form-check-label" for="exampleRadios1">
+                            An Individual
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                               value="option1" >
+                        <label class="form-check-label" for="exampleRadios1">
+                            A Business
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col">
                 <div class="form-group col-md-12">
                     <input type="text" class="form-control">
-                    <label for="inputEmail4">Address  <span>*</span></label>
+                    <label for="inputEmail4">Address <span>*</span></label>
 
                 </div>
             </div>

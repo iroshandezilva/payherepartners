@@ -179,6 +179,17 @@ a {
               }
 
               form {
+                .main-check{
+                  margin-bottom: 15px;
+                  label{
+                    font-size: 0.75rem;
+                  }
+                  .form-check{
+                    label{
+                      font-size: 0.9rem;
+                    }
+                  }
+                }
                 .form-group {
                   padding: 0;
                   position: relative;
@@ -228,6 +239,7 @@ a {
                       + label {
                         font-size: 0.75rem;
                         top: -8px;
+                        left: 0;
                       }
 
                     }

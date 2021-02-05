@@ -27,11 +27,11 @@
             <div class="col">
                 <div class="form-group  col-md-12 form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1"> I reffered PayHere to the above Merchant</label>
+                    <label class="form-check-label" for="exampleCheck1"> I reffered PayHere to the above
+                        Merchant</label>
                 </div>
             </div>
         </div>
-
 
 
     </form>
