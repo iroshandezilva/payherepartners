@@ -35,59 +35,61 @@
                         <table id="table" class="table">
                             <thead>
                             <tr>
-                                <th>MONTH</th>
+                                <th>Date</th>
                                 <th>BUISNESS NAME</th>
+                                <th>POINTS FOR</th>
                                 <th>POINTS EARNED</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>2021 January</td>
+                                <td>2021-01-05</td>
                                 <td>Bhasha Lanka (PVT) LTD</td>
+                                <td>On-boarding PREMIUM</td>
                                 <td>45456</td>
                             </tr>
                             <tr>
-                                <td>2021 January</td>
+                                <td>2021-01-05</td>
                                 <td>Bhasha Lanka (PVT) LTD</td>
+                                <td>On-boarding PREMIUM</td>
                                 <td>45456</td>
                             </tr>
                             <tr>
-                                <td>2021 January</td>
+                                <td>2021-01-05</td>
                                 <td>Bhasha Lanka (PVT) LTD</td>
+                                <td>On-boarding PREMIUM</td>
                                 <td>45456</td>
                             </tr>
                             <tr>
-                                <td>2021 January</td>
+                                <td>2021-01-05</td>
                                 <td>Bhasha Lanka (PVT) LTD</td>
+                                <td>On-boarding PREMIUM</td>
                                 <td>45456</td>
                             </tr>
                             <tr>
-                                <td>2021 January</td>
+                                <td>2021-01-05</td>
                                 <td>Bhasha Lanka (PVT) LTD</td>
+                                <td>On-boarding PREMIUM</td>
                                 <td>45456</td>
                             </tr>
                             <tr>
-                                <td>2021 January</td>
+                                <td>2021-01-05</td>
                                 <td>Bhasha Lanka (PVT) LTD</td>
+                                <td>On-boarding PREMIUM</td>
                                 <td>45456</td>
                             </tr>
                             <tr>
-                                <td>2021 January</td>
+                                <td>2021-01-05</td>
                                 <td>Bhasha Lanka (PVT) LTD</td>
+                                <td>On-boarding PREMIUM</td>
                                 <td>45456</td>
                             </tr>
                             <tr>
-                                <td>2021 January</td>
+                                <td>2021-01-05</td>
                                 <td>Bhasha Lanka (PVT) LTD</td>
+                                <td>On-boarding PREMIUM</td>
                                 <td>45456</td>
                             </tr>
-                            <tr>
-                                <td>2021 January</td>
-                                <td>Bhasha Lanka (PVT) LTD</td>
-                                <td>45456</td>
-                            </tr>
-
-
                             </tbody>
                         </table>
                     </div>

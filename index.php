@@ -7,14 +7,14 @@
             <div class="page-content-inner">
                 <?php include "elements/inner-header.php" ?>
                 <div class="page-content">
-                    <?php include "pages/redemptions.php" ?>
+                    <?php include "pages/earnings.php" ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<?php include "elements/modal.php" ?>
+<?php //include "elements/modal.php" ?>
 <?php include "elements/footer.php" ?>
 
 
