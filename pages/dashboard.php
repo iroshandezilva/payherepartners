@@ -69,7 +69,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 text-right">
-                            <a href="#" class="btn-ph">
+                            <a  data-toggle="modal" data-target="#addbusiness" class="btn-ph">
                                 <i class="fas fa-plus"></i> Add New Referral
                             </a>
                         </div>

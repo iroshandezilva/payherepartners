@@ -11,7 +11,6 @@
                             <form class="form-inline row">
                                 <div class="form-group col-lg-5">
                                     <input type="text" class="form-control " placeholder="Search..">
-
                                 </div>
                                 <div class="form-group col-lg-4">
                                     <input type="text" class="form-control " name="daterange"
